@@ -2,7 +2,7 @@
 first_number = "2"
  do
    expect {first_number}.to be_an(Integer)
-  end
+  end--require spec_helper
 
 
 second_number = "4"
