@@ -13,5 +13,5 @@ end
 
 sum = first_number + second_number
 do 
-expect {sum}.to equal (first_number+second_number)
+expect {sum}.to eq(first_number+second_number)
 end 
