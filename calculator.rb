@@ -3,3 +3,6 @@ first_number = "1"
 def
   expect (first_number).to 'be_an'(Integer)
 end
+
+second_number = "2"
+if 
