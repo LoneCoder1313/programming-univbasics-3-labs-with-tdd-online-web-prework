@@ -1,6 +1,6 @@
 # Add your variables here
 first_number = "1"
-def
+do 
   expect (first_number).to 'be_an'(Integer)
 end
 
