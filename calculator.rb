@@ -1,8 +1,7 @@
 # Add your variables here
 first_number = "1"
-do 
-
-  expect (first_number).to 'be_an'(Integer)
+ 
+   expect (first_number).to 'be_an'(Integer)
 end
 
-second_number =
+second_number = "2"
