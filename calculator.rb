@@ -19,5 +19,15 @@ end
 sum = first_number - second_number
 do
   expect(assert_difference).to eq(first_number - second_number)
-end   
+end  
+
+do 
+  expect(product).to eq(first_number * second_number)
+end
+
+do 
+  expect(quotient).to eq(first_number / second_number)
+end
+
+end 
   
