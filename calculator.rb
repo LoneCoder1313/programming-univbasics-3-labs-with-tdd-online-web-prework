@@ -14,4 +14,4 @@ end
 sum = first_number + second_number
 do 
 expect {sum}.to equal (first_number+second_number)
-end 
+end --require spec_helper
